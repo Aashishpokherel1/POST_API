@@ -10,7 +10,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://aashishpokherel:ram123@cluster0.cgf81hu.mongodb.net/Cluster0?retryWrites=true&w=majority', {
+mongoose.connect('mongoabLink', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
